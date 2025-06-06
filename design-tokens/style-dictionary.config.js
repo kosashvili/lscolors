@@ -1,12 +1,12 @@
 module.exports = {
   "source": ["tokens/**/*.json"],
   "platforms": {
-    "compose": {
-      "transformGroup": "compose",
-      "buildPath": "build/compose/",
+    "ios": {
+      "transformGroup": "ios",
+      "buildPath": "build/ios/",
       "files": [{
-        "destination": "Color.kt",
-        "format": "compose/object"
+        "destination": "Colors.swift",
+        "format": "ios/colors.swift"
       }]
     }
   }
